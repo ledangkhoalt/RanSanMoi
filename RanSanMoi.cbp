@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="RanSanMoi" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/RanSanMoi" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DSFML_STATIC" />
+					<Add directory="C:/SFML-2.5.1/include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+					<Add directory="C:/SFML-2.5.1/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/RanSanMoi" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="SFML/Audio.hpp" />
+		<Unit filename="SFML/Audio/AlResource.hpp" />
+		<Unit filename="SFML/Audio/Export.hpp" />
+		<Unit filename="SFML/Audio/InputSoundFile.hpp" />
+		<Unit filename="SFML/Audio/Listener.hpp" />
+		<Unit filename="SFML/Audio/Music.hpp" />
+		<Unit filename="SFML/Audio/OutputSoundFile.hpp" />
+		<Unit filename="SFML/Audio/Sound.hpp" />
+		<Unit filename="SFML/Audio/SoundBuffer.hpp" />
+		<Unit filename="SFML/Audio/SoundBufferRecorder.hpp" />
+		<Unit filename="SFML/Audio/SoundFileFactory.hpp" />
+		<Unit filename="SFML/Audio/SoundFileReader.hpp" />
+		<Unit filename="SFML/Audio/SoundFileWriter.hpp" />
+		<Unit filename="SFML/Audio/SoundRecorder.hpp" />
+		<Unit filename="SFML/Audio/SoundSource.hpp" />
+		<Unit filename="SFML/Audio/SoundStream.hpp" />
+		<Unit filename="SFML/Config.hpp" />
+		<Unit filename="SFML/GpuPreference.hpp" />
+		<Unit filename="SFML/Graphics.hpp" />
+		<Unit filename="SFML/Graphics/BlendMode.hpp" />
+		<Unit filename="SFML/Graphics/CircleShape.hpp" />
+		<Unit filename="SFML/Graphics/Color.hpp" />
+		<Unit filename="SFML/Graphics/ConvexShape.hpp" />
+		<Unit filename="SFML/Graphics/Drawable.hpp" />
+		<Unit filename="SFML/Graphics/Export.hpp" />
+		<Unit filename="SFML/Graphics/Font.hpp" />
+		<Unit filename="SFML/Graphics/Glsl.hpp" />
+		<Unit filename="SFML/Graphics/Glyph.hpp" />
+		<Unit filename="SFML/Graphics/Image.hpp" />
+		<Unit filename="SFML/Graphics/PrimitiveType.hpp" />
+		<Unit filename="SFML/Graphics/Rect.hpp" />
+		<Unit filename="SFML/Graphics/RectangleShape.hpp" />
+		<Unit filename="SFML/Graphics/RenderStates.hpp" />
+		<Unit filename="SFML/Graphics/RenderTarget.hpp" />
+		<Unit filename="SFML/Graphics/RenderTexture.hpp" />
+		<Unit filename="SFML/Graphics/RenderWindow.hpp" />
+		<Unit filename="SFML/Graphics/Shader.hpp" />
+		<Unit filename="SFML/Graphics/Shape.hpp" />
+		<Unit filename="SFML/Graphics/Sprite.hpp" />
+		<Unit filename="SFML/Graphics/Text.hpp" />
+		<Unit filename="SFML/Graphics/Texture.hpp" />
+		<Unit filename="SFML/Graphics/Transform.hpp" />
+		<Unit filename="SFML/Graphics/Transformable.hpp" />
+		<Unit filename="SFML/Graphics/Vertex.hpp" />
+		<Unit filename="SFML/Graphics/VertexArray.hpp" />
+		<Unit filename="SFML/Graphics/VertexBuffer.hpp" />
+		<Unit filename="SFML/Graphics/View.hpp" />
+		<Unit filename="SFML/Main.hpp" />
+		<Unit filename="SFML/Network.hpp" />
+		<Unit filename="SFML/Network/Export.hpp" />
+		<Unit filename="SFML/Network/Ftp.hpp" />
+		<Unit filename="SFML/Network/Http.hpp" />
+		<Unit filename="SFML/Network/IpAddress.hpp" />
+		<Unit filename="SFML/Network/Packet.hpp" />
+		<Unit filename="SFML/Network/Socket.hpp" />
+		<Unit filename="SFML/Network/SocketHandle.hpp" />
+		<Unit filename="SFML/Network/SocketSelector.hpp" />
+		<Unit filename="SFML/Network/TcpListener.hpp" />
+		<Unit filename="SFML/Network/TcpSocket.hpp" />
+		<Unit filename="SFML/Network/UdpSocket.hpp" />
+		<Unit filename="SFML/OpenGL.hpp" />
+		<Unit filename="SFML/System.hpp" />
+		<Unit filename="SFML/System/Clock.hpp" />
+		<Unit filename="SFML/System/Err.hpp" />
+		<Unit filename="SFML/System/Export.hpp" />
+		<Unit filename="SFML/System/FileInputStream.hpp" />
+		<Unit filename="SFML/System/InputStream.hpp" />
+		<Unit filename="SFML/System/Lock.hpp" />
+		<Unit filename="SFML/System/MemoryInputStream.hpp" />
+		<Unit filename="SFML/System/Mutex.hpp" />
+		<Unit filename="SFML/System/NativeActivity.hpp" />
+		<Unit filename="SFML/System/NonCopyable.hpp" />
+		<Unit filename="SFML/System/Sleep.hpp" />
+		<Unit filename="SFML/System/String.hpp" />
+		<Unit filename="SFML/System/Thread.hpp" />
+		<Unit filename="SFML/System/ThreadLocal.hpp" />
+		<Unit filename="SFML/System/ThreadLocalPtr.hpp" />
+		<Unit filename="SFML/System/Time.hpp" />
+		<Unit filename="SFML/System/Utf.hpp" />
+		<Unit filename="SFML/System/Vector2.hpp" />
+		<Unit filename="SFML/System/Vector3.hpp" />
+		<Unit filename="SFML/Window.hpp" />
+		<Unit filename="SFML/Window/Clipboard.hpp" />
+		<Unit filename="SFML/Window/Context.hpp" />
+		<Unit filename="SFML/Window/ContextSettings.hpp" />
+		<Unit filename="SFML/Window/Cursor.hpp" />
+		<Unit filename="SFML/Window/Event.hpp" />
+		<Unit filename="SFML/Window/Export.hpp" />
+		<Unit filename="SFML/Window/GlResource.hpp" />
+		<Unit filename="SFML/Window/Joystick.hpp" />
+		<Unit filename="SFML/Window/Keyboard.hpp" />
+		<Unit filename="SFML/Window/Mouse.hpp" />
+		<Unit filename="SFML/Window/Sensor.hpp" />
+		<Unit filename="SFML/Window/Touch.hpp" />
+		<Unit filename="SFML/Window/VideoMode.hpp" />
+		<Unit filename="SFML/Window/Window.hpp" />
+		<Unit filename="SFML/Window/WindowHandle.hpp" />
+		<Unit filename="SFML/Window/WindowStyle.hpp" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
